@@ -9,7 +9,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     // letter-spacing: 1rem;
-    font-size: 3rem;
+    font-size: 4rem;
     color: whitesmoke;
 }
 
@@ -17,3 +17,61 @@
     color: rgb(218, 63, 63);
 }
 
+.dynamic-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.dynamic-text span {
+    position: relative;
+}
+
+.dynamic-text span::before {
+    content: "";
+    color: whitesmoke;
+    animation: words 20s infinite;
+}
+
+.dynamic-text span::after {
+    content: "";
+    background: url(/img/dynamic-textbg.jpg);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 2px solid white;
+    right: -6px;
+    animation: cursor 0s infinite, typing 20s steps(16) infinite;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid white;
+    }
+}
+
+@keyframes words {
+    0%,20% {
+        content:"Aircraft Mechanic";
+    }
+    21%,40% {
+        content: "Enrollment Analyst";
+    }
+    41%,60% {
+        content: "Tech-Savvy";
+    }
+    61%,80%{
+        content: "Digital Assistant";
+    }
+    81%,100% {
+        content: "Video Editor";
+    }
+}
+
+    @keyframes typing{
+        15%,30%,35%,55%,70%,75%,90%,95% {
+            width: 0;
+        }
+        10%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
