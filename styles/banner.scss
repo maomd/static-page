@@ -1,0 +1,19 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    // letter-spacing: 1rem;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+#coder {
+    color: rgb(218, 63, 63);
+}
+
