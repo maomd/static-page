@@ -10,56 +10,43 @@
   background-color: rgba(211, 211, 211, 0.417);
 }
 
-.skill1 {
-  grid-area: one;
+.work-container {
+  display: grid;
+  grid-template-columns: auto;
 }
 
-.skill2 {
-  grid-area: two;
+.work-container button {
+  justify-self: center;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.skill3 {
-  grid-area: three;
-}
-
-.skill4 {
-  grid-area: four;
-}
-
-.skill7 {
-  grid-area: five;
-}
-
-.skill6 {
-  grid-area: six;
-}
-
-.skill5 {
-  grid-area: seven;
-}
-
-.skill8 {
-  grid-area: eight;
-}
-
-.skill9 {
-  grid-area: nine;
+.work-container button:hover {
+  background-color: #225723;
+  color: white;
 }
 
 .skills {
   display: grid;
-  grid-template-areas: "one two three" "four five six" "seven eight nine";
+  grid-template-columns: auto auto auto;
   text-align: center;
-  padding: 1rem 10rem 1rem 10rem;
+  grid-gap: 0.5rem;
+  padding: 1rem;
 }
 
 .skills div {
   padding: 1rem;
-  border: 0.25rem white solid;
   background-color: rgba(211, 211, 211, 0.417);
   color: dimgrey;
 }
 
 .skills path {
-  fill: dimgrey;
+  fill: black;
 }/*# sourceMappingURL=about.css.map */
