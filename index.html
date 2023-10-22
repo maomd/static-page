@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/title.css">
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mao Mercado</title>
 </head>
 <body>
@@ -97,16 +99,30 @@
         </div>
     </section>
     <!-- end of about -->
-    <section id="contact">
-        <div>
+    <section class="contact-section" id="contact">
+        <div class="contact-header">
             <h2>Get in Touch</h2>
             <p>If you wish to reach out, discuss a potential project collaboration, or simply greet, I'd be delighted to receive your message. Kindly complete the form and send me an email.</p>
         </div>
-    <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maodayuja'});return false;">Schedule a meeting</a>
-<!-- Calendly link widget end -->
+
+        <div class="contact-container">
+            <!-- <div class="contact-form"> -->
+                <form class="contact-form" action="">
+                    <input class="cx-info" type="text" placeholder="Your Name">
+                    <input class="cx-info" type="email" placeholder="Your Email">
+                    <input class="cx-info" type="text" placeholder="Subject" name="" id="">
+                    <textarea class="cx-info" type="text" placeholder="Write something here..."></textarea>
+                    <input class="submit" type="submit" value="Send message">
+                </form>
+            <!-- </div> -->
+        <!-- Calendly link widget begin -->
+            <div class="calendly">
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/maodayuja'});return false;"><i class="fa fa-group" style="font-size:1rem"></i> Schedule a meeting</a>
+            </div>
+        </div>
+        <!-- Calendly link widget end -->
         <div class="social-media">
             <p>
                 <a href="https://web.facebook.com/cptmmd/"><i class="fab fa-facebook-square fa-2x"></i></a>
