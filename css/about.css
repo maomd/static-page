@@ -1,6 +1,5 @@
 .about {
   padding-top: 5rem;
-  height: 100vh;
 }
 
 .myImage {
@@ -51,4 +50,11 @@
 
 .skills path {
   fill: black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .skills {
+    grid-template-columns: auto;
+  }
 }/*# sourceMappingURL=about.css.map */
