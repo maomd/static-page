@@ -9,12 +9,12 @@
   align-items: center;
   font-style: italic;
   background-color: rgba(211, 211, 211, 0.417);
+  padding: 1rem;
 }
 
 .work-container {
   display: grid;
   grid-template-columns: auto;
-  padding: 1rem;
 }
 
 .work-container button {
