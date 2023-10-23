@@ -1,6 +1,6 @@
 .about {
     padding-top: 5rem;
-    height: 100vh;
+    // height: 100vh;
 }
 
 .myImage {
@@ -9,7 +9,7 @@
     align-items: center;
     font-style: italic;
     background-color: rgba(211, 211, 211, 0.417);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .work-container{ 
@@ -17,7 +17,7 @@
     grid-template-columns: auto;
 }
 
-.work-container{
+.work-container h3{
     margin: 1rem;
 }
 
