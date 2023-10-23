@@ -6,7 +6,6 @@
 }
 
 .title {
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     // letter-spacing: 1rem;
     font-size: 5vw;
@@ -18,8 +17,17 @@
 }
 
 .dynamic-text {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 2vw;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .dynamic-text {
+        font-size: 5vw;
+    }
+    .title {
+        font-size: 10vw;
+    }
 }
 
 .dynamic-text span {
