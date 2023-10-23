@@ -9,12 +9,10 @@ header {
   flex-wrap: wrap;
   align-items: center;
   transition: 0.6s;
-  padding: 1rem 0 1rem 3rem;
   background: rgba(12, 53, 74, 0.083);
 }
 
 header.sticky {
-  padding: 0.5rem 0 0.5rem 3rem;
   background-color: black;
 }
 
