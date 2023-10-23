@@ -15,10 +15,14 @@
 .work-container{ 
     display: grid;
     grid-template-columns: auto;
-    padding: 1rem;
+}
+
+.work-container{
+    margin: 1rem;
 }
 
 .work-container button {
+    margin: 1rem;
     justify-self:center;
     background-color: #4CAF50;
     border: none;
