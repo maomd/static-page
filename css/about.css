@@ -1,5 +1,6 @@
 .about {
   padding-top: 5rem;
+  height: 100vh;
 }
 
 .myImage {
@@ -8,7 +9,6 @@
   align-items: center;
   font-style: italic;
   background-color: rgba(211, 211, 211, 0.417);
-  padding: 2rem;
 }
 
 .work-container {
