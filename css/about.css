@@ -16,10 +16,6 @@
   grid-template-columns: auto;
 }
 
-.work-container h3 {
-  margin: 1rem;
-}
-
 .work-container button {
   margin: 1rem;
   justify-self: center;
