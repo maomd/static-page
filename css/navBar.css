@@ -12,6 +12,10 @@ header {
   background: rgba(12, 53, 74, 0.083);
 }
 
+.item {
+  padding-top: 1rem;
+}
+
 header.sticky {
   background-color: black;
 }
